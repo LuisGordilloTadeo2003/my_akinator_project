@@ -1,0 +1,13 @@
+{
+    "name": "my_akinator_project",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "concurrently \"npm run start-back\" \"npm run start-front\"",
+        "start-back": "npm start --prefix \"my_akinator_back\"",
+        "start-front": "npm start --prefix \"my_akinator_front\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    }
+}
