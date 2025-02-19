@@ -1,0 +1,6 @@
+[submodule "my_akinator_front"]
+	path = my_akinator_front
+	url = https://github.com/LuisGordilloTadeo2003/my_akinator_front.git
+[submodule "my_akinator_back"]
+	path = my_akinator_back
+	url = https://github.com/LuisGordilloTadeo2003/my_akinator_back.git
